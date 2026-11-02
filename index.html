@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Royale - Last Survivor</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <div id="hud">
+        <h2>BATTLE ROYALE</h2>
+        <p>❤️ Health: <span id="health">100</span></p>
+        <p>🔫 Ammo: <span id="ammo">30</span></p>
+        <p>☠ Kills: <span id="kills">0</span></p>
+        <p>🟢 Safe Zone: <span id="zone">100</span>m</p>
+    </div>
+
+    <div id="message">LAST SURVIVOR</div>
+
+    <button id="start">START GAME</button>
+
+    <div id="controls">
+        WASD - Move | SHIFT - Run<br>
+        Mouse - Aim | Click - Shoot
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
